@@ -1,0 +1,9 @@
+# Real secrets stay local — only the .example template is committed
+k8s/backend/secret.yaml
+*.env
+.env*
+
+# OS / Editor
+.vscode/
+.DS_Store
+Thumbs.db
